@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="js/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="js/reveal.js/css/theme/moon.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>Variables</h1>
+                </section>
+                <section>
+                    <h3>What is a variable?</h3>
+                    <p class="fragment fade-in">A variable is a bit of code that acts as a stand-in for a value you get later or that you need to use many times</p>
+                    <p class="fragment fade-in">Think of it like a game of mad libs. You pick a few nouns, a verb or two, and an adjective and fill them in throughout a text. The words you choose are variables</p>
+                </section>
+                <section>
+                    <h3>What is a data type?</h3>
+                    <p class="fragment fade-in">Data types are ways to organize your data. Java is a "Strongly typed" language, so you have to specify what your data is when you declare the variable</p>
+                    <p class="fragment fade-in">When you declare something like</p>
+                    <pre>int numBooks = 0</pre>
+                    <p class="fragment fade-in">you're creating a variable of the integer datatype with a value of zero</p>
+                </section>
+                <section>
+                    <section>
+                        <h3>What datatypes exist in Java?</h3>
+                        <p class="fragment fade-in">
+                            I'm not sure what your class is going to cover, so I'll cover the basics.
+                        </p>
+                        <p class="fragment fade-in">There's the integer data type. This can be all whole numbers between -2^31 and 2^31-1.</p>
+                        <p class="fragment fade-in">There's the float data type. This is all numbers, including decimals. There are limits, but you don't care about those right now</p>
+                    </section>
+                    <section>
+                        <h3>Examples:</h3>
+                        <h4>Integer</h4>
+                        <pre><code>
+                            int five = 3
+                            int three = 5
+                            System.out.print(three + five) 
+                            ...
+                            8
+                        </code></pre>
+                        <h4>Float</h4>
+                        <pre><code>
+                            float pie = 3.14
+                            float taurus = 6.28
+                            System.out.print(pie + taurus)
+                            ...
+                            9.42
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>What datatypes exist in java?</h3>
+                        <h4>String</h4>
+                        <p class="fragment fade-in">
+                        String data types are used whenever you need text or something in text form. You'll use a lot of these, some make sure you're familliar with them.
+                        When typing in  a string and using them in output statements, make sure you're familliar with where your spaces need to be. "thing " and "thing" will have differing results in output statements.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Examples:</h3>
+                        <h4>String</h4>
+                        <pre><code>
+                            String text = "Hell is empty and all the devils are here."
+                            System.out.println(text + " -- William Shakespere")
+                        </code></pre>
+                        <h4>Integer &amp; String</h4>
+                        <pre><code>
+                            int foo = 6
+                            int bar = 1997
+                            String person = "John Jacob Jingleheimer-Schmitt"
+                            System.out.print("The person " + person + " was born in " + foo + "/" + bar)
+                        </code></pre>
+                    </section>
+                </section>
+            </div>
+        </div>
+        <script src="js/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize();
+        </script>
+    </body>
+</html>
